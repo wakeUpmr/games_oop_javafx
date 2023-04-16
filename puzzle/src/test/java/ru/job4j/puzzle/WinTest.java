@@ -1,10 +1,9 @@
 package ru.job4j.puzzle;
 
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
-import static org.assertj.core.api.Assertions.*;
+import static org.assertj.core.api.Assertions.assertThat;
 
-@Disabled("Тесты отключены. Удалить аннотацию после реализации метода check()")
+
 public class WinTest {
     @Test
     public void whenVerticalWin() {
